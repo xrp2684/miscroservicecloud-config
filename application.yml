@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 ﻿spring: 
+=======
+spring:
+>>>>>>> 843e4d2c0eea94e771c296aa0d0f8877c15e5c2b
   profiles:
     active:
-        - dev
-
+    - dev
 ---
+<<<<<<< HEAD
 spring: 
   profiles: dev #开发环境
   application:
@@ -11,5 +15,15 @@ spring:
 ---
 spring: 
   profiles: test  #测试环境
+=======
+spring:
+  profiles: dev     #开发环境
   application: 
-        name: microservicecloud-config-atguigu-test
+    name: microservicecloud-config-gysoft-dev
+---
+spring:
+  profiles: test   #测试环境
+>>>>>>> 843e4d2c0eea94e771c296aa0d0f8877c15e5c2b
+  application: 
+    name: microservicecloud-config-gysoft-test
+#  请保存为UTF-8格式
