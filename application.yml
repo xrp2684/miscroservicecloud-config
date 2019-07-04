@@ -1,15 +1,15 @@
-spring: 
+spring:
   profiles:
     active:
-        - dev
-
+    - dev
 ---
-spring: 
-  profiles: dev #¿ª·¢»·¾³
-  application:
-        name: microservicecloud-config-atguigu-dev
----
-spring: 
-  profiles: test  #²âÊÔ»·¾³
+spring:
+  profiles: dev     #å¼€å‘ç¯å¢ƒ
   application: 
-        name: microservicecloud-config-atguigu-test
+    name: microservicecloud-config-gysoft-dev
+---
+spring:
+  profiles: test   #æµ‹è¯•ç¯å¢ƒ
+  application: 
+    name: microservicecloud-config-gysoft-test
+#  è¯·ä¿å­˜ä¸ºUTF-8æ ¼å¼
